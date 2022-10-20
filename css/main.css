@@ -1,0 +1,19 @@
+body {
+  background-color: black;
+}
+
+.square {
+  height: 50px;
+  width: 50px;
+  background-color: white;
+
+  display: block;
+}
+
+.square2 {
+  height: 50px;
+  width: 50px;
+  background-color: white;
+
+  display: block;
+}

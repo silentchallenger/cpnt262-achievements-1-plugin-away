@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/main.css">
+  <title>animeJS Practice</title>
+  
+</head>
+<body>
+  <div class="main-container">
+    <div class="square"></div>
+  </div>
+
+  <div class="main-container">
+    <div class="square2"></div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js"></script>
+  <script>
+    anime({
+      targets: ".square",
+      translateX: 0,
+      easing: "linear",
+      loop: true,
+      direction: "alternate",
+      scale: 0.5,
+      rotateY: 270,
+      rotateX: 180
+    });
+
+    anime({
+      targets: ".square2",
+      translateX: 300,
+      easing: "linear",
+      loop: true,
+      direction: "alternate",
+    });
+  </script>
+</body>
+</html>
